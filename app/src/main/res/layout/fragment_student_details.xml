@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+        <TableRow
+            android:padding="10dp"
+            android:background="#e0e0e0">
+            <TextView
+                android:layout_weight="1"
+                android:text="id : "
+                android:textSize="16sp"
+                android:textColor="#777777"/>
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/tv_student_id"
+                android:textSize="16sp"
+                android:textColor="#1B1B1B" />
+
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="#f0f0f0">
+            <TextView
+                android:layout_weight="1"
+                android:text="name : "
+                android:textSize="16sp"
+                android:textColor="#777777"/>
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/tv_student_name"
+                android:textSize="16sp"
+                android:textColor="#1B1B1B" />
+
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="#e0e0e0">
+            <TextView
+                android:layout_weight="1"
+                android:text="score : "
+                android:textSize="16sp"
+                android:textColor="#777777"/>
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/tv_student_score"
+                android:textSize="16sp"
+                android:textColor="#1B1B1B" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
